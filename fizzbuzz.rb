@@ -2,7 +2,7 @@ def fizzbuzz(num)
   if (num % 15 == 3) && (num % 15 == 5)
     return  "Fizzbuzz"
   elsif num % 3 == 0
-    return  "Fizz"
+    return  "Fizzbuzz"
   elsif num % 5 == 0
     return  "Buzz"
   else
